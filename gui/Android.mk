@@ -95,7 +95,7 @@ TWRP_RES_LOC := $(commands_recovery_local_path)/gui/devices/common/res
 TWRP_COMMON_XML := $(hide) echo "No common TWRP XML resources"
 
 ifeq ($(TW_CUSTOM_THEME),)
-TW_CUSTOM_THEME := $(commands_recovery_local_path)/gui/devices/custom/$(DEVICE_RESOLUTION)
+TW_CUSTOM_THEME := $(commands_recovery_local_path)/gui/devices/custom/$(DEVICE_RESOLUTION)/res
 endif
 
 ifeq ($(TW_CUSTOM_THEME),)
